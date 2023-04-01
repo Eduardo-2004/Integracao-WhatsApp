@@ -1,0 +1,68 @@
+/* Definição de estilos para o body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  /* Definição de estilos para o fieldset */
+  fieldset {
+    max-width: 500px;
+    margin: 50px auto;
+    border: none;
+  }
+  
+  /* Definição de estilos para os boxes */
+  .box {
+    margin-bottom: 20px;
+  }
+  
+  /* Definição de estilos para o título do formulário */
+  .box h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+  }
+  
+  /* Definição de estilos para os campos de entrada */
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    margin-top: 10px;
+    box-sizing: border-box;
+  }
+  
+  /* Definição de estilos para o botão */
+  button {
+    background-color: #0099ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0080ff;
+  }
+  
+  /* Definição de estilos para o campo de mensagem */
+  textarea {
+    height: 150px;
+  }
+  
+  /* Definição de estilos para o ID bg */
+  #bg {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
